@@ -1,0 +1,11 @@
+url = ""
+title = ""
+location = ""
+timezone = ""
+from_dts = ""
+to_dts = ""
+descr = ""
+
+google_url = "https://www.google.com/calendar/render?action=TEMPLATE&text=zxc&details=zxc&location=zxc&dates=20221102T100000Z%2F20221103T100000Z"
+outlook_url = "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20221103T100000Z%2F20221103T100000Z&details=&location=&text="
+office365_url = "https://outlook.office.com/calendar/0/deeplink/compose?body=&enddt=2022-11-03T10%3A00%3A00%2B00%3A00&location=&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2022-11-03T10%3A00%3A00%2B00%3A00&subject="

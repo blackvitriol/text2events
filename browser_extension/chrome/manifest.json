@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Text2Events",
+    "description": "Automate your producitivty enhancement. Select any text to create calendar events.",
+    "version": "0.1",
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": "images/icon.png"
+    },
+    "permissions": [
+        "contextMenus"
+    ],
+    "background": {
+        "service_worker": "scripts/contextmenu.js"
+      },
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/chrome_pages_readtime.js"
+            ],
+            "matches": [
+                "https://developer.chrome.com/docs/extensions/*",
+                "https://developer.chrome.com/docs/webstore/*"
+            ]
+        }
+    ]
+}
